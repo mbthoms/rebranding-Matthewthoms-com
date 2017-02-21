@@ -6,6 +6,17 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+html{
+	background-image: url("images/noise-overlay.png");
+	background-repeat: repeat;
+}
+
+/*Adding PDF icons beside pdf links.*/
+a[href$=".pdf"]:after
+{
+	content: url(/path/to/pdf-icon.png);
+	padding-left:2px;
+}
 
 /* Reset */
 
